@@ -1,0 +1,7 @@
+D:\c_sharp\stone\PessoaFJ\PessoaFJ\bin\Debug\PessoaFJ.exe.config
+D:\c_sharp\stone\PessoaFJ\PessoaFJ\bin\Debug\PessoaFJ.exe
+D:\c_sharp\stone\PessoaFJ\PessoaFJ\bin\Debug\PessoaFJ.pdb
+D:\c_sharp\stone\PessoaFJ\PessoaFJ\obj\Debug\PessoaFJ.csproj.AssemblyReference.cache
+D:\c_sharp\stone\PessoaFJ\PessoaFJ\obj\Debug\PessoaFJ.csproj.CoreCompileInputs.cache
+D:\c_sharp\stone\PessoaFJ\PessoaFJ\obj\Debug\PessoaFJ.exe
+D:\c_sharp\stone\PessoaFJ\PessoaFJ\obj\Debug\PessoaFJ.pdb

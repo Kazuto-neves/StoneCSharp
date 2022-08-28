@@ -1,0 +1,7 @@
+D:\c_sharp\stone\ClassStone\ClassStone\bin\Debug\ClassStone.exe.config
+D:\c_sharp\stone\ClassStone\ClassStone\bin\Debug\ClassStone.exe
+D:\c_sharp\stone\ClassStone\ClassStone\bin\Debug\ClassStone.pdb
+D:\c_sharp\stone\ClassStone\ClassStone\obj\Debug\ClassStone.csproj.AssemblyReference.cache
+D:\c_sharp\stone\ClassStone\ClassStone\obj\Debug\ClassStone.csproj.CoreCompileInputs.cache
+D:\c_sharp\stone\ClassStone\ClassStone\obj\Debug\ClassStone.exe
+D:\c_sharp\stone\ClassStone\ClassStone\obj\Debug\ClassStone.pdb

@@ -1,0 +1,7 @@
+D:\c_sharp\stone\MentoriaCS1\MentoriaCS1\bin\Debug\MentoriaCS1.exe.config
+D:\c_sharp\stone\MentoriaCS1\MentoriaCS1\bin\Debug\MentoriaCS1.exe
+D:\c_sharp\stone\MentoriaCS1\MentoriaCS1\bin\Debug\MentoriaCS1.pdb
+D:\c_sharp\stone\MentoriaCS1\MentoriaCS1\obj\Debug\MentoriaCS1.csproj.AssemblyReference.cache
+D:\c_sharp\stone\MentoriaCS1\MentoriaCS1\obj\Debug\MentoriaCS1.csproj.CoreCompileInputs.cache
+D:\c_sharp\stone\MentoriaCS1\MentoriaCS1\obj\Debug\MentoriaCS1.exe
+D:\c_sharp\stone\MentoriaCS1\MentoriaCS1\obj\Debug\MentoriaCS1.pdb

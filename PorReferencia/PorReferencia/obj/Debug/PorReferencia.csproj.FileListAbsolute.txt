@@ -1,0 +1,7 @@
+D:\c_sharp\stone\PorReferencia\PorReferencia\bin\Debug\PorReferencia.exe.config
+D:\c_sharp\stone\PorReferencia\PorReferencia\bin\Debug\PorReferencia.exe
+D:\c_sharp\stone\PorReferencia\PorReferencia\bin\Debug\PorReferencia.pdb
+D:\c_sharp\stone\PorReferencia\PorReferencia\obj\Debug\PorReferencia.csproj.AssemblyReference.cache
+D:\c_sharp\stone\PorReferencia\PorReferencia\obj\Debug\PorReferencia.csproj.CoreCompileInputs.cache
+D:\c_sharp\stone\PorReferencia\PorReferencia\obj\Debug\PorReferencia.exe
+D:\c_sharp\stone\PorReferencia\PorReferencia\obj\Debug\PorReferencia.pdb
