@@ -1,0 +1,7 @@
+D:\c_sharp\StoneCSharp\InterfacePessoaFJ\InterfacePessoaFJ\bin\Debug\InterfacePessoaFJ.exe.config
+D:\c_sharp\StoneCSharp\InterfacePessoaFJ\InterfacePessoaFJ\bin\Debug\InterfacePessoaFJ.exe
+D:\c_sharp\StoneCSharp\InterfacePessoaFJ\InterfacePessoaFJ\bin\Debug\InterfacePessoaFJ.pdb
+D:\c_sharp\StoneCSharp\InterfacePessoaFJ\InterfacePessoaFJ\obj\Debug\InterfacePessoaFJ.csproj.AssemblyReference.cache
+D:\c_sharp\StoneCSharp\InterfacePessoaFJ\InterfacePessoaFJ\obj\Debug\InterfacePessoaFJ.csproj.CoreCompileInputs.cache
+D:\c_sharp\StoneCSharp\InterfacePessoaFJ\InterfacePessoaFJ\obj\Debug\InterfacePessoaFJ.exe
+D:\c_sharp\StoneCSharp\InterfacePessoaFJ\InterfacePessoaFJ\obj\Debug\InterfacePessoaFJ.pdb

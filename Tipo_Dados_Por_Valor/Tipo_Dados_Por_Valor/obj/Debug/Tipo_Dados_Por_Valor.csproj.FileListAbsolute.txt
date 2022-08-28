@@ -1,0 +1,7 @@
+C:\Users\Kazuto\source\repos\Tipo_Dados_Por_Valor\Tipo_Dados_Por_Valor\bin\Debug\Tipo_Dados_Por_Valor.exe.config
+C:\Users\Kazuto\source\repos\Tipo_Dados_Por_Valor\Tipo_Dados_Por_Valor\bin\Debug\Tipo_Dados_Por_Valor.exe
+C:\Users\Kazuto\source\repos\Tipo_Dados_Por_Valor\Tipo_Dados_Por_Valor\bin\Debug\Tipo_Dados_Por_Valor.pdb
+C:\Users\Kazuto\source\repos\Tipo_Dados_Por_Valor\Tipo_Dados_Por_Valor\obj\Debug\Tipo_Dados_Por_Valor.csproj.AssemblyReference.cache
+C:\Users\Kazuto\source\repos\Tipo_Dados_Por_Valor\Tipo_Dados_Por_Valor\obj\Debug\Tipo_Dados_Por_Valor.csproj.CoreCompileInputs.cache
+C:\Users\Kazuto\source\repos\Tipo_Dados_Por_Valor\Tipo_Dados_Por_Valor\obj\Debug\Tipo_Dados_Por_Valor.exe
+C:\Users\Kazuto\source\repos\Tipo_Dados_Por_Valor\Tipo_Dados_Por_Valor\obj\Debug\Tipo_Dados_Por_Valor.pdb
