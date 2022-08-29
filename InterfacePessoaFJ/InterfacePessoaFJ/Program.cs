@@ -47,13 +47,13 @@ namespace InterfacePessoaFJ
                     Console.WriteLine("ID\tNome\tRenda\tIdade\tTipo\tCPF\tProfissao\tDependentes");
                     foreach (PessoaFisica pF in pessoaFisicas)
                     {
-                        Console.WriteLine($"{pF.Id_Pessoa}\t{pF.Nome}\t"+pF.RA.ToString("2C")+$"\t{pF.idade}\t{pF.Tipo}\t{pF.CPF}\t{pF.Profissao}\t{pF.NumDep}");
+                        Console.WriteLine($"{pF.Id_Pessoa}\t{pF.Nome}\t"+pF.RA+$"\t{pF.idade}\t{pF.Tipo}\t{pF.CPF}\t{pF.Profissao}\t{pF.NumDep}");
                         Console.ReadKey();
                     }
                     Console.WriteLine("ID\tNome\tRenda\tIdade\tTipo\tCPF\tProfissao\tDependentes");
                     foreach (PessoaJuridica pJ in pessoaJuridicas)
                     {
-                        Console.WriteLine($"{pJ.Id_Pessoa}\t{pJ.Nome}\t" + pJ.RA.ToString("2C") + $"\t{pJ.idade}\t{pJ.Tipo}\t{pJ.CNPJ}\t{pJ.NIN}\n{pJ.NIM}");
+                        Console.WriteLine($"{pJ.Id_Pessoa}\t{pJ.Nome}\t" + pJ.RA + $"\t{pJ.idade}\t{pJ.Tipo}\t{pJ.CNPJ}\t{pJ.NIN}\n{pJ.NIM}");
                         Console.ReadKey();
                     }
                     break;
@@ -61,7 +61,7 @@ namespace InterfacePessoaFJ
                     Console.WriteLine("ID\tNome\tRenda\tIdade\tTipo\tCPF\tProfissao\tDependentes");
                     foreach (PessoaFisica pF in pessoaFisicas)
                     {
-                        Console.WriteLine($"{pF.Id_Pessoa}\t{pF.Nome}\t" + pF.RA.ToString("2C") + $"\t{pF.idade}\t{pF.Tipo}\t{pF.CPF}\t{pF.Profissao}\t{pF.NumDep}");
+                        Console.WriteLine($"{pF.Id_Pessoa}\t{pF.Nome}\t" + pF.RA + $"\t{pF.idade}\t{pF.Tipo}\t{pF.CPF}\t{pF.Profissao}\t{pF.NumDep}");
                         Console.ReadKey();
                     }
                     break;
@@ -69,7 +69,7 @@ namespace InterfacePessoaFJ
                     Console.WriteLine("ID\tNome\tRenda\tIdade\tTipo\tCNPJ\tNIN\tNIM");
                     foreach (PessoaJuridica pJ in pessoaJuridicas)
                     {
-                        Console.WriteLine($"{pJ.Id_Pessoa}\t{pJ.Nome}\t" + pJ.RA.ToString("2C") + $"\t{pJ.idade}\t{pJ.Tipo}\t{pJ.CNPJ}\t{pJ.NIN}\n{pJ.NIM}");
+                        Console.WriteLine($"{pJ.Id_Pessoa}\t{pJ.Nome}\t" + pJ.RA + $"\t{pJ.idade}\t{pJ.Tipo}\t{pJ.CNPJ}\t{pJ.NIN}\n{pJ.NIM}");
                         Console.ReadKey();
                     }
                     break;

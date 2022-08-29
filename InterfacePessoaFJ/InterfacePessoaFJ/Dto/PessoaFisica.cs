@@ -15,7 +15,7 @@ namespace InterfacePessoaFJ.Dto
 
         public override void Mostrar(int ID)
         {
-            if (ID == this.Id_Pessoa) Console.WriteLine($"ID: {this.Id_Pessoa}\nNome: {this.Nome}\nRenda Anual: " + RA.ToString("2C") + $"\nIdade: {this.idade}\nTipo: {this.Tipo}\nCPF: {this.CPF}\nProfissao: {this.Profissao}\nDependentes: {this.NumDep}");
+            if (ID == this.Id_Pessoa) Console.WriteLine($"ID: {this.Id_Pessoa}\nNome: {this.Nome}\nRenda Anual: " + this.RA + $"\nIdade: {this.idade}\nTipo: {this.Tipo}\nCPF: {this.CPF}\nProfissao: {this.Profissao}\nDependentes: {this.NumDep}");
             else Console.WriteLine("ID invalido");
         }
 
