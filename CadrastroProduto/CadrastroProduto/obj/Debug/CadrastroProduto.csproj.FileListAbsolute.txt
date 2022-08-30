@@ -1,0 +1,7 @@
+C:\Users\Kazuto\source\repos\CadrastroProduto\CadrastroProduto\bin\Debug\CadrastroProduto.exe.config
+C:\Users\Kazuto\source\repos\CadrastroProduto\CadrastroProduto\bin\Debug\CadrastroProduto.exe
+C:\Users\Kazuto\source\repos\CadrastroProduto\CadrastroProduto\bin\Debug\CadrastroProduto.pdb
+C:\Users\Kazuto\source\repos\CadrastroProduto\CadrastroProduto\obj\Debug\CadrastroProduto.csproj.AssemblyReference.cache
+C:\Users\Kazuto\source\repos\CadrastroProduto\CadrastroProduto\obj\Debug\CadrastroProduto.csproj.CoreCompileInputs.cache
+C:\Users\Kazuto\source\repos\CadrastroProduto\CadrastroProduto\obj\Debug\CadrastroProduto.exe
+C:\Users\Kazuto\source\repos\CadrastroProduto\CadrastroProduto\obj\Debug\CadrastroProduto.pdb

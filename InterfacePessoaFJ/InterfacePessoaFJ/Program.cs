@@ -47,7 +47,7 @@ namespace InterfacePessoaFJ
                     Console.WriteLine("ID\tNome\tRenda\tIdade\tTipo\tCPF\tProfissao\tDependentes");
                     foreach (PessoaFisica pF in pessoaFisicas)
                     {
-                        Console.WriteLine($"{pF.Id_Pessoa}\t{pF.Nome}\t"+pF.RA+$"\t{pF.idade}\t{pF.Tipo}\t{pF.CPF}\t{pF.Profissao}\t{pF.NumDep}");
+                        Console.WriteLine($"{pF.Id_Pessoa}\t{pF.Nome}\t" + pF.RA + $"\t{pF.idade}\t{pF.Tipo}\t{pF.CPF}\t{pF.Profissao}\t{pF.NumDep}");
                         Console.ReadKey();
                     }
                     Console.WriteLine("ID\tNome\tRenda\tIdade\tTipo\tCPF\tProfissao\tDependentes");
@@ -102,7 +102,7 @@ namespace InterfacePessoaFJ
             }
         }
 
-        public static void Input(int OP,List<PessoaFisica> pessoaFisicas,List<PessoaJuridica> pessoaJuridicas, ref PessoaJuridica juridica, ref PessoaFisica fisica)
+        public static void Input(int OP,List<PessoaFisica> pessoaFisicas,List<PessoaJuridica> pessoaJuridicas, PessoaJuridica juridica,PessoaFisica fisica)
         {
             Console.WriteLine(pessoaFisicas.Count);
             Console.WriteLine(pessoaJuridicas.Count);
@@ -132,11 +132,12 @@ namespace InterfacePessoaFJ
                 {
                     case 1:
                         Console.Clear();
-                        Input(1,pessoaFisicas,pessoaJuridicas, ref juridica, ref fisica);
+                        Input(1, pessoaFisicas, pessoaJuridicas, new PessoaJuridica(), new PessoaFisica());
+
                         break;
                     case 2:
                         Console.Clear();
-                        Input(2,pessoaFisicas,pessoaJuridicas, ref juridica, ref fisica);
+                        Input(2,pessoaFisicas,pessoaJuridicas,juridica,fisica);
                         break;
                     case 3:
                         Console.Clear();
