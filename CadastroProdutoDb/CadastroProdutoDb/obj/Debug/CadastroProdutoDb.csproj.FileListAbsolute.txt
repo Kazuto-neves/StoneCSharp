@@ -1,0 +1,12 @@
+D:\c_sharp\StoneCSharp\CadastroProdutoDb\CadastroProdutoDb\bin\Debug\CadastroProdutoDb.exe.config
+D:\c_sharp\StoneCSharp\CadastroProdutoDb\CadastroProdutoDb\bin\Debug\CadastroProdutoDb.exe
+D:\c_sharp\StoneCSharp\CadastroProdutoDb\CadastroProdutoDb\bin\Debug\CadastroProdutoDb.pdb
+D:\c_sharp\StoneCSharp\CadastroProdutoDb\CadastroProdutoDb\bin\Debug\EntityFramework.dll
+D:\c_sharp\StoneCSharp\CadastroProdutoDb\CadastroProdutoDb\bin\Debug\EntityFramework.SqlServer.dll
+D:\c_sharp\StoneCSharp\CadastroProdutoDb\CadastroProdutoDb\bin\Debug\EntityFramework.xml
+D:\c_sharp\StoneCSharp\CadastroProdutoDb\CadastroProdutoDb\bin\Debug\EntityFramework.SqlServer.xml
+D:\c_sharp\StoneCSharp\CadastroProdutoDb\CadastroProdutoDb\obj\Debug\CadastroProdutoDb.csproj.CoreCompileInputs.cache
+D:\c_sharp\StoneCSharp\CadastroProdutoDb\CadastroProdutoDb\obj\Debug\CadastroProdutoDb.csproj.CopyComplete
+D:\c_sharp\StoneCSharp\CadastroProdutoDb\CadastroProdutoDb\obj\Debug\CadastroProdutoDb.exe
+D:\c_sharp\StoneCSharp\CadastroProdutoDb\CadastroProdutoDb\obj\Debug\CadastroProdutoDb.pdb
+D:\c_sharp\StoneCSharp\CadastroProdutoDb\CadastroProdutoDb\obj\Debug\CadastroProdutoDb.csproj.AssemblyReference.cache

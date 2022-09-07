@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LojaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="Id_Categoria" />
+    </Key>
+    <Property Name="Id_Categoria" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descricao" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="SubCategorias" Relationship="Self.FK__SubCatego__Id_Ca__25869641" FromRole="Categoria" ToRole="SubCategoria" />
+  </EntityType>
+  <EntityType Name="Compra">
+    <Key>
+      <PropertyRef Name="Id_Compra" />
+    </Key>
+    <Property Name="Id_Compra" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Qtd_Compra" Type="Int32" Nullable="false" />
+    <Property Name="Preco" Type="Decimal" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="Cancelado" Type="Byte" Nullable="false" />
+    <Property Name="Id_Product" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__Compra__Id_Produ__36B12243" FromRole="Compra" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id_Product" />
+    </Key>
+    <Property Name="Id_Product" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Qtd_Total" Type="Int32" Nullable="false" />
+    <Property Name="Id_SB" Type="Int32" />
+    <NavigationProperty Name="Compras" Relationship="Self.FK__Compra__Id_Produ__36B12243" FromRole="Product" ToRole="Compra" />
+    <NavigationProperty Name="SubCategoria" Relationship="Self.FK__Product__Id_SB__286302EC" FromRole="Product" ToRole="SubCategoria" />
+    <NavigationProperty Name="Vendas" Relationship="Self.FK__Venda__Id_Produc__398D8EEE" FromRole="Product" ToRole="Venda" />
+  </EntityType>
+  <EntityType Name="SubCategoria">
+    <Key>
+      <PropertyRef Name="Id_SubCategoria" />
+    </Key>
+    <Property Name="Id_SubCategoria" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descricao" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Id_Categoria" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Categoria" Relationship="Self.FK__SubCatego__Id_Ca__25869641" FromRole="SubCategoria" ToRole="Categoria" />
+    <NavigationProperty Name="Products" Relationship="Self.FK__Product__Id_SB__286302EC" FromRole="SubCategoria" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Venda">
+    <Key>
+      <PropertyRef Name="Id_Venda" />
+    </Key>
+    <Property Name="Id_Venda" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Qtd_Venda" Type="Int32" Nullable="false" />
+    <Property Name="Preco" Type="Decimal" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="Cancelado" Type="Byte" Nullable="false" />
+    <Property Name="Id_Product" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__Venda__Id_Produc__398D8EEE" FromRole="Venda" ToRole="Product" />
+  </EntityType>
+  <Association Name="FK__SubCatego__Id_Ca__25869641">
+    <End Role="Categoria" Type="Self.Categoria" Multiplicity="1" />
+    <End Role="SubCategoria" Type="Self.SubCategoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categoria">
+        <PropertyRef Name="Id_Categoria" />
+      </Principal>
+      <Dependent Role="SubCategoria">
+        <PropertyRef Name="Id_Categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Compra__Id_Produ__36B12243">
+    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="Compra" Type="Self.Compra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Id_Product" />
+      </Principal>
+      <Dependent Role="Compra">
+        <PropertyRef Name="Id_Product" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__Id_SB__286302EC">
+    <End Role="SubCategoria" Type="Self.SubCategoria" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubCategoria">
+        <PropertyRef Name="Id_SubCategoria" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="Id_SB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Venda__Id_Produc__398D8EEE">
+    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="Venda" Type="Self.Venda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Id_Product" />
+      </Principal>
+      <Dependent Role="Venda">
+        <PropertyRef Name="Id_Product" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LojaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categorias" EntityType="Self.Categoria" />
+    <EntitySet Name="Compras" EntityType="Self.Compra" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="SubCategorias" EntityType="Self.SubCategoria" />
+    <EntitySet Name="Vendas" EntityType="Self.Venda" />
+    <AssociationSet Name="FK__SubCatego__Id_Ca__25869641" Association="Self.FK__SubCatego__Id_Ca__25869641">
+      <End Role="Categoria" EntitySet="Categorias" />
+      <End Role="SubCategoria" EntitySet="SubCategorias" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Compra__Id_Produ__36B12243" Association="Self.FK__Compra__Id_Produ__36B12243">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Compra" EntitySet="Compras" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__Id_SB__286302EC" Association="Self.FK__Product__Id_SB__286302EC">
+      <End Role="SubCategoria" EntitySet="SubCategorias" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Venda__Id_Produc__398D8EEE" Association="Self.FK__Venda__Id_Produc__398D8EEE">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Venda" EntitySet="Vendas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

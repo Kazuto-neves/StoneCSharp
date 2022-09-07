@@ -5,3 +5,10 @@ C:\Users\Kazuto\source\repos\CadrastroProduto\CadrastroProduto\obj\Debug\Cadrast
 C:\Users\Kazuto\source\repos\CadrastroProduto\CadrastroProduto\obj\Debug\CadrastroProduto.csproj.CoreCompileInputs.cache
 C:\Users\Kazuto\source\repos\CadrastroProduto\CadrastroProduto\obj\Debug\CadrastroProduto.exe
 C:\Users\Kazuto\source\repos\CadrastroProduto\CadrastroProduto\obj\Debug\CadrastroProduto.pdb
+D:\c_sharp\StoneCSharp\CadrastroProduto\CadrastroProduto\bin\Debug\CadrastroProduto.exe.config
+D:\c_sharp\StoneCSharp\CadrastroProduto\CadrastroProduto\bin\Debug\CadrastroProduto.exe
+D:\c_sharp\StoneCSharp\CadrastroProduto\CadrastroProduto\bin\Debug\CadrastroProduto.pdb
+D:\c_sharp\StoneCSharp\CadrastroProduto\CadrastroProduto\obj\Debug\CadrastroProduto.csproj.AssemblyReference.cache
+D:\c_sharp\StoneCSharp\CadrastroProduto\CadrastroProduto\obj\Debug\CadrastroProduto.csproj.CoreCompileInputs.cache
+D:\c_sharp\StoneCSharp\CadrastroProduto\CadrastroProduto\obj\Debug\CadrastroProduto.exe
+D:\c_sharp\StoneCSharp\CadrastroProduto\CadrastroProduto\obj\Debug\CadrastroProduto.pdb
